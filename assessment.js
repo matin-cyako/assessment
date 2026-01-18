@@ -4,12 +4,6 @@ const assessmentButton = document.getElementById('assessment');
 const resultDivision = document.getElementById('result-area');
 const tweetDivision = document.getElementById('tweet-area');
 
-const element = document.getElementById("target");
-
-// クラスを追加するだけで適用される
-element.classList.add("center-active");
-
-assessmentButton.addEventListener(
   'click',
   () => {
     const userName =userNameInput.value;
@@ -129,5 +123,6 @@ function test() {
 }
 
 test();
+
 
 
