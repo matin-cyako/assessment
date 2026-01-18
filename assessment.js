@@ -4,8 +4,7 @@ const assessmentButton = document.getElementById('assessment');
 const resultDivision = document.getElementById('result-area');
 const tweetDivision = document.getElementById('tweet-area');
 
-  assessmentButton.onclick = () => {
-  const userName = userNameInput.value;
+  assessmentButton.onclick = 
   () => {
     const userName =userNameInput.value;
     if(userName.length === 0){
@@ -124,6 +123,7 @@ function test() {
 }
 
 test();
+
 
 
 
