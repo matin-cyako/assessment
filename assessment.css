@@ -1,3 +1,8 @@
+header {
+    background-color: #ffffff; /* 背景色（ダークグレー） */
+    color: #333333;            /* 文字色（白） */
+}
+
 body{
   background-color: #7ccff2;
   color:#fdffff;
@@ -18,8 +23,9 @@ body{
 button{
   padding: 5px 20px;
   color: #fdffff;
-  background-color: #337ab7;
+  background-color: #b0e0e6;
   border-style: none;
 }
+
 
 
