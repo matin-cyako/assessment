@@ -22,10 +22,11 @@ body{
 
 #assessment{
   padding: 5px 20px;
-  color: #333333;
+  color: #333333 !important;
   background-color: #b0e0e6;
   border-style: none;
 }
+
 
 
 
