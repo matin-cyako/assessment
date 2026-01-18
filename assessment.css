@@ -1,10 +1,20 @@
 body{
-  background-color: #04a6eb;
+  background-color: #7ccff2;
   color:#fdffff;
-  width: 500px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0;
 }
+
+/* bodyの幅指定を消して、代わりにここで幅を決めます */
+.container {
+  max-width: 500px; /* 最大幅を500pxにする（スマホなどでは自動で縮む） */
+  margin: 60px auto; /* 上下に60pxの隙間、左右は自動で真ん中寄せ */
+  
+  /* 以下は見た目を整えるためのおまけ（任意） */
+  background-color: rgba(255, 255, 255, 0.1); /* 薄く白い背景を敷く */
+  padding: 20px;     /* 内側に隙間を作る */
+  border-radius: 10px; /* 角を丸くする */
+}
+
 button{
   padding: 5px 20px;
   color: #fdffff;
@@ -15,3 +25,4 @@ input{
   height: 30px;
 
 }
+
